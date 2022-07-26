@@ -22,7 +22,7 @@ const routes = [
     component: About
   },
   {
-    path: '/:catchAll(.*)',
+    path: '/:pathMatch(.*)*',
     name: 'NotFoundComponent',
     component: NotFoundComponent
   }
