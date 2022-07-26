@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import NotFoundComponent from '@/components/NotFoundComponent'
+import NotFoundComponent from '@/views/NotFoundComponent'
 import EventList from '@/views/EventList.vue'
 import EventDetails from '@/views/EventDetails.vue'
 import About from '@/views/About.vue'
