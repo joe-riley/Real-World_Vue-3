@@ -20,12 +20,17 @@ const routes = [
     path: '/about',
     name: 'About',
     component: About
+  },
+  {
+    path: '/:catchAll(.*)',
+    name: 'NotFoundComponent',
+    component: NotFoundComponent
   }
 ]
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes: [{ path: '*', component: NotFoundComponent }]
+  routes
 })
 
 export default router
