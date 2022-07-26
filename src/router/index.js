@@ -22,7 +22,7 @@ const routes = [
     component: About
   },
   {
-    path: '/:pathMatch(.*)*',
+    path: '*',
     name: 'NotFoundComponent',
     component: NotFoundComponent
   }
